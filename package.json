@@ -1,0 +1,23 @@
+{
+  "name": "gitmdtopdfconverter",
+  "version": "1.0.0",
+  "description": "This is a converter of any git files to pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.17.0",
+    "fs": "0.0.1-security",
+    "markdown-pdf": "^8.1.1",
+    "pdfkit": "^0.8.3",
+    "recursive-readdir": "^2.2.1",
+    "walk": "^2.3.9"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
